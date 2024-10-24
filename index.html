@@ -1,0 +1,87 @@
+<html>
+   <head>
+    <title>Магазин Ігор</title>
+    <link rel="stylesheet" href="style.css">
+    </head> 
+    <body>
+        <header>
+          <img class="epicgames" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Epic_games_store_logo.svg/1200px-Epic_games_store_logo.svg.png"/>
+          <select class="select" name="select">
+  <option value="value1"><a href="">гра 1</a></option>
+  <option value="value2"><a href="">гра 2</a></option>
+  <option value="value3"><a href="">гра 3</a></option>
+  <option value="value4"><a href="">гра 4</a></option>
+</select>
+           <nav>
+            <a class="a1" href="">Перший Проект</a>
+            <a class="a2" href="">Минулий Проект </a>
+            <a class="btn"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMnvSJ1TiE-pHc4Ca-xCSynIACywAqfE-UJg&s"/></a>
+            <div class="modal hide">
+            <div class="modal-window"> 
+                <h1> Друзі </h1>
+                <p>В мережі</p>
+                <p></p>
+                <p>Не в мережі</p>
+                <button class="btn"> Close </button>
+            </div>
+            </div>
+<div class="modal hide">
+            <div class="modal-window"> 
+                <h1>Друзі</h1>
+                <p>В мережі</p>
+                <p> </p>
+                <p>Не в мережі</p>
+                <button class="btn"> Open </button>
+            </div>
+            </div>
+<script>
+let btn = document.querySelectorAll(".btn");
+let modal = document.querySelector(".modal");
+
+for (let i = 0; i < btn.length; i+=1){
+    btn[i].addEventListener("click", () => {
+    modal.classList.toggle("hide");
+});
+}
+             </script>
+<script>
+let btn = document.querySelectorAll(".btn");
+let modal = document.querySelector(".modal");
+
+for (let i = 0; i < btn.length; i+=1){
+    btn[i].addEventListener("click", () => {
+    modal.classList.toggle("hide");
+});
+}
+             </script>
+           </nav>
+        </header>
+        <main>
+        <p>Популярні Жанри</p>
+        <nav class="sanri">
+        <img class="img1"src="https://static1.thegamerimages.com/wordpress/wp-content/uploads/2021/05/Best-Single-Player-Games-For-MMORPG-Fans.jpg"/>
+         <img class="img2"src="https://cdn.wccftech.com/wp-content/uploads/2024/01/most-anticipated-RPGs-2024-scaled.jpg"/>
+         <img class="img3" src="https://assetsio.gnwcdn.com/Best-VR-Games-vg247.jpg?width=1600&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp"/>
+        </nav>
+        </main>
+        <footer>
+        <nav class="games">
+            <p class="footerp1"><a href="https://volodymyr2508.github.io/rep-5finalproect/"><img class="basic1" src="https://image.api.playstation.com/vulcan/ap/rnd/202407/1814/07a6fda04cc8874d465605538724103f78e3f4deeede69d3.png"/></a>
+            Ea Sports FC 25
+            </p>
+            <a href="https://volodymyr2508.github.io/rep-6finalproect/">
+                <p class="footerp2"><img class="basic2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ98b_yAS-U-KpimA1MaOltCRH7XRmE9B9f8Q&s"/>BeamNG.drive
+                </p>
+            </a>
+            <a href="https://volodymyr2508.github.io/rep-7finallproect/">
+                <p class="footerp3"><img class="basic3" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0K1w6zSgbtg5UbY34lWgKl6wilwt90Uy7rA&s"/>FORTNITE
+                </p>
+            </a> 
+            <a href="https://volodymyr2508.github.io/rep-8finallproect/">
+                <p class="footerp4"><img class="basic4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvqC8lXryOKJcOxoN4j61dkpfLoQL8T4Vqsg&s"/>Red Dead Redemption 2
+                </p>
+            </a>
+        </nav>
+        </footer>
+    </body>
+</html>
