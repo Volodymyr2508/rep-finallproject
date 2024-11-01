@@ -20,13 +20,13 @@ display: flex;
     height: 80;
     position: absolute;
     top: 50px;
-    left: 150px;
+    left: 250px;
 }
 .a1{
     margin: 10px;
 position: absolute;
 top: 65px;
-left: 450px;
+left: 550px;
 font-size: 25px;
 text-decoration: none;
 color: white;
@@ -40,7 +40,7 @@ border: 1px solid white;
        margin: 10px;
 position: absolute;
 top: 65px;
-left: 650px;
+left: 750px;
 font-size: 25px;
 text-decoration: none;
 color: white;
@@ -53,7 +53,7 @@ border: 1px solid white;
 .select{
     position: absolute;
     top: 75px;
-    left: 300px;
+    left: 400px;
     color: white;
     background-color: rgb(58, 57, 57);
     font-size: 20px;
@@ -67,7 +67,7 @@ main p{
     border-radius: 5px;
     position: absolute;
     top: 150px;
-    left: 250px;
+    left: 350px;
     font-size: 30px;
 }
 .select:hover{
@@ -79,7 +79,7 @@ nav img{
     width: 70px;
     position: absolute;
     top: 55px;
-    left: 900px;
+    left: 1000px;
 }
 .modal{
   width: 100%;
@@ -112,7 +112,7 @@ nav img{
     height: 200px;
     position: absolute;
     top: 250px;
-    left: 100px;
+    left: 200px;
 }
 .sanri p{
      font-size: 25px;
@@ -125,7 +125,7 @@ nav img{
     height: 200px;
     position: absolute;
     top: 250px;
-    left: 450px;
+    left: 550px;
 }
 .img3{
     border:10px solid rgb(60, 60, 60) ;
@@ -135,7 +135,7 @@ nav img{
     height: 200px;
     position: absolute;
     top: 250px;
-    left: 800px;
+    left: 900px;
 }
 .basic1{
        border:1px solid white ;
@@ -156,19 +156,19 @@ nav img{
     color: white;
     font-size: 15px;
     margin-top: 770px;
-    margin-left: 140px;
+    margin-left: 240px;
 }
 .footerp3{
     color: white;
     font-size: 15px;
     margin-top: 770px;
-    margin-left: 210px;
+    margin-left: 310px;
 }
 .footerp4{
     color: white;
     font-size: 15px;
     margin-top: 770px;
-    margin-left: 190px;
+    margin-left: 290px;
 }
 .basic2{
        border:1px solid white ;
@@ -177,7 +177,7 @@ nav img{
     border-radius: 15px;
     position: absolute;
     top: 500px;
-    left: 400px;
+    left: 500px;
 }
 .basic3{
        border:1px solid white ;
@@ -186,7 +186,7 @@ nav img{
     border-radius: 15px;
     position: absolute;
     top: 500px;
-    left: 650px;
+    left: 750px;
 }
 .basic4{
     border:1px solid white ;
@@ -195,7 +195,7 @@ nav img{
     border-radius: 15px;
     position: absolute;
     top: 500px;
-    left: 900px;
+    left: 1000px;
 }
 
 .hide{
